@@ -1,0 +1,484 @@
+{
+  "figma": "https://www.figma.com/design/Qh1YG18rrcwzEUWcHYX5YB/?node-id=163-2",
+  "reference_nodes": {
+    "home_pc": "163:2",
+    "home_sp": "309:2964",
+    "service": "186:2",
+    "about": "186:4",
+    "contact": "190:35",
+    "works": "186:3",
+    "privacy": "199:2"
+  },
+  "assets": [
+    {
+      "file": "assets/images/02510.svg",
+      "bytes": 569,
+      "sha256": "d300412b880cb7c4c8a3411e103cfc60b1c888bbc19243f74dab8384748f5b92",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/04035.svg",
+      "bytes": 409,
+      "sha256": "7858df59c534267515c7ef33cc74c72b341929534b4da3f5a6582e4871192627",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/04d2d.png",
+      "bytes": 226479,
+      "sha256": "64ed8e2c40a8b7fa8099871e0165fd7b27202d34e3651f4a278fce9882db90b9",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/0ae41.png",
+      "bytes": 8134147,
+      "sha256": "d88f383663e85bf1690468065a4756b6f35948690de25c68b13f2abb3c5029c0",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/0af94.svg",
+      "bytes": 1604,
+      "sha256": "b18752fc11780dcbe3e2a7ecfbf96651f6777998f8ab0a57928fa7686c6380ec",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/0d773.svg",
+      "bytes": 559,
+      "sha256": "391e561045a8d45669c77afcb07da36602c80c09ca4c77bc6ef33f164bdbfb2f",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/0e1a5.png",
+      "bytes": 304021,
+      "sha256": "9a292bb180bc2ab8db4466e3d8caed102a4af1f69f9abb10c583ec8413ae6a72",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/122f5.png",
+      "bytes": 49708,
+      "sha256": "78a496ccb91219d72050834158d8a41f4c717d3efbfeff5e937e49f41bb93c7e",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/137d3.svg",
+      "bytes": 584,
+      "sha256": "e15b44fcd50acbf96bc41c7cb7dc62e61688948ad4ef8667312976d41c045bbe",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/16763.svg",
+      "bytes": 4669,
+      "sha256": "146486a714d1d7bac4748ae8e7b7f7fa5f52c85449a929f449f80d244b67ec43",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/1a610.png",
+      "bytes": 294971,
+      "sha256": "63250c82c6dc0bed658f648da6f74b204dac918a0f73b4c957e4f32e8d2dd80c",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/1c047.svg",
+      "bytes": 4669,
+      "sha256": "e2df9e798d26aef313cc2996209e44a95e5d32da9c73a82d633a66077326e0d3",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/1f63c.png",
+      "bytes": 6200604,
+      "sha256": "25a98c6485fb5f757650fe572dd1c2a6776dc34ddd81c886f5f595d8413669f1",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/20e87.svg",
+      "bytes": 340,
+      "sha256": "dc97df8ecd24d20c3487509ae80a36fef57cda900675954534a83356329d3071",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/282cb.svg",
+      "bytes": 667,
+      "sha256": "204b269475152f69aaba664e52cb75f6ada86e9b21f72400c6bd333f03685ae4",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/28681.png",
+      "bytes": 305275,
+      "sha256": "44d954e42dabe56605ff50d12531d3c4d4d988982a7a4bd9d80685e192680e0f",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/29c75.png",
+      "bytes": 548303,
+      "sha256": "dd2c383027f60a9c89e250a1408590b0a5a3bb4106612af748e1fab071d3a2c9",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/3ecc8.svg",
+      "bytes": 324,
+      "sha256": "d9f28dc3ff2c8df2792fb049f120312cf82dea911fd7cd65af72ea0a62b3c678",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/42622.svg",
+      "bytes": 538,
+      "sha256": "b257bcdddb104b3e1c3ad4b360cf7bdec1e15d341fa7b139a1fa0195b17e8010",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/43018.png",
+      "bytes": 182806,
+      "sha256": "87c23cea7b8ad7d0f4dcec4b48412c4bb090381d2765280453b785b176e2cd7e",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/46972.svg",
+      "bytes": 1543,
+      "sha256": "61757b6e69cfb8a796a2f48e819fd069914b44e3eac835d7884703593b42fe2c",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/4f338.svg",
+      "bytes": 552,
+      "sha256": "4cf8840c78c9587df1822e0304d978f3b107ce7524132f09512ed560349ad542",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/4fe8d.png",
+      "bytes": 203251,
+      "sha256": "117df041b086e3970fe6d15a56738c0b5c6cfa2c9a5908ba727e28b58ff4060f",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/53476.png",
+      "bytes": 330535,
+      "sha256": "c137341c5dd1c13615ecc223699b05792ebd7022ccd8a4554da8db6fcaf7e91e",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/60c94.png",
+      "bytes": 739851,
+      "sha256": "c775f9acbccefa59a32b926373ee1b1e9dde2685eec74900368d9707678e55cc",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/6b5b0.png",
+      "bytes": 416320,
+      "sha256": "cc35bd0ab5e5adbf4ecdf52f86698f6888065f426141466d26fe9f0ef21987c4",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/6c746.png",
+      "bytes": 411607,
+      "sha256": "1355427dc3f7bc596befe5314c56cc1a40790ce8373812a99a9eb19a3deb0a44",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/6dcb2.png",
+      "bytes": 432985,
+      "sha256": "51031323e4dd7c173d786dd55dac10becc89534003cf8b8cb7e6af7f8019ab0d",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/73700.svg",
+      "bytes": 411,
+      "sha256": "797853e2d09cd6938b0376f2c92423326e2f502d272e5fcca4d7afc89fca699e",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/82432.png",
+      "bytes": 327390,
+      "sha256": "68f53d34b561d2a96c2d0248e80423ff2817adf3564123b98a14b32094e45054",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/88a2e.svg",
+      "bytes": 486,
+      "sha256": "a873aac8a9eae0caba88a6b613dc9ed23805700f7af7dccf2cb480d228d225cf",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/9790f.svg",
+      "bytes": 399,
+      "sha256": "e458c54368f1c53bb4ac4d01659b55a8cc721b4e1c5c6a384ec6687c5742b87a",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/97bc5.svg",
+      "bytes": 1890,
+      "sha256": "fdb6c0bc0cc237e0fa5d5c3d8a5f6e9e9b5f1a03c0982601abd8d4ece8659b09",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/9d15a.png",
+      "bytes": 603012,
+      "sha256": "01b4069e05896da8f9770196a4e35aa6d29429a95422713509d9f8fa85d68897",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/9e80e.png",
+      "bytes": 293588,
+      "sha256": "81fcb1ce0540be7934a9cc91ddb5f30e463ebbf57bc81cab35b8861d8049537a",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/9ed97.svg",
+      "bytes": 557,
+      "sha256": "fc501f74a09258c83c804e2f536aca04285347f176794232a827cd815958c1af",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/a95ee.png",
+      "bytes": 222179,
+      "sha256": "f6b680e67c1fc0454f7729e2ac8fdc0916cf9ba1c72b27eed6e8d9746c5746dc",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/aa319.png",
+      "bytes": 124983,
+      "sha256": "6b749e267a112cf46989609c7ff6ad93ec6cdfd923dc1f2ff069a91e1b1a2c10",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/ace86.svg",
+      "bytes": 442,
+      "sha256": "4c32219bdf0160d2f948fa7eaccdaba5513a09bf2cd65284d3dfd97dd96c08b5",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/b0936.svg",
+      "bytes": 550,
+      "sha256": "a00996cd2b215ffedc42bb80876b9cde747feef2d116a3d354b02180174fa555",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/b457f.svg",
+      "bytes": 1108,
+      "sha256": "360d66119d39cb40e667ed917001abc8d8262c37f5e661f40dcedbaa8107e781",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/b73b1.png",
+      "bytes": 29000,
+      "sha256": "927ac5013425ef075e40336d5a742a04fd19cfab7d4dbf1b6352e8a331961c11",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/bd9d5.png",
+      "bytes": 222777,
+      "sha256": "83b4a6ea341f73aed8c2aa786e35d18468c39a3684f1e929f6e5834e81505c1e",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/c1dbc.svg",
+      "bytes": 345,
+      "sha256": "8ba78ce71022ef3ddba513a59722ee9bfac5b1a1191e2c8c94a0c4200cae413a",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/c2de2.svg",
+      "bytes": 497,
+      "sha256": "dfe3df5ecc1eddd18f10134292191348d2b18d94837a995d9121170af0adf8b9",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/c42c6.svg",
+      "bytes": 4669,
+      "sha256": "146486a714d1d7bac4748ae8e7b7f7fa5f52c85449a929f449f80d244b67ec43",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/c5a33.svg",
+      "bytes": 388,
+      "sha256": "e99efc6e6ad877c690969cf04133c1f5c2488e9e31722441775f2528a5fefe89",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/c615b.svg",
+      "bytes": 442,
+      "sha256": "50488540f8fba58de1d4f49b152ea482b7fb0539de01481b869b3405f711a586",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/cb893.svg",
+      "bytes": 659,
+      "sha256": "ef489291a200ec6f7b569befdec170415d61ab3865e6a04b7f365c9054642a5d",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/cd1b6.svg",
+      "bytes": 657,
+      "sha256": "aa967faaf26c140cbc9b54a979e5502eea7f00a1499032c75e1c40cd0cb4def0",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/d1975.svg",
+      "bytes": 674,
+      "sha256": "c2cbf584d4f21b830e7c0ec2ffb54500247c3dd12a62abfea24c9116ca5564b8",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/d8321.png",
+      "bytes": 613187,
+      "sha256": "dd5d81f3f2f95c56d4cbd4814251cfbc1c4046307f7d463a236d5fef697dfef4",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/da5c5.png",
+      "bytes": 620538,
+      "sha256": "d119de7ebf6e1dda5a5d08bbe32f803be957fd82b7ccd7142cfa89f08e6df33f",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/dbae9.png",
+      "bytes": 184546,
+      "sha256": "a4af3246e6f89e3f258f962b80342679d67d2170162ba81f7d8ff22db4febd9a",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/df103.svg",
+      "bytes": 2093,
+      "sha256": "af7ebb12880e24cc97efbc03f7641c996d6897d25ea2a55e443b3522c2f9cb44",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/e140d.png",
+      "bytes": 216408,
+      "sha256": "f4528108a6f33a555a3ea7cfb0e5169adc75fdbd2a5db588021c92346e908458",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/e20f9.svg",
+      "bytes": 339,
+      "sha256": "887e15e3e1fcb3d9f0a51fe0c9a5dc0f06eb01a26405433132f224845c62a2f5",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/e4378.svg",
+      "bytes": 1108,
+      "sha256": "486da8263fce0cd94a7c18056c08dbb2d0cd4907bfd75bee38e5309730abd92e",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/e49c4.png",
+      "bytes": 239952,
+      "sha256": "2ab82682cd736b44cf98a3088a6688fe900a2cc91ff6b42ba4d245810cb0d8ef",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/e6638.png",
+      "bytes": 239773,
+      "sha256": "0d87347e49bce14c5f00bf10cd063eb6f47579ceef91fcf258931ad9c9026a50",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/eaf40.png",
+      "bytes": 606273,
+      "sha256": "e012932943f478da64ae9b03bcc5c7b36f44e1a3bbab9cc48f93d74193479a52",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/ec40a.svg",
+      "bytes": 677,
+      "sha256": "2079aaca724b511e4c9a83f57f18ae64d95aa1b838ab9a528faa9971725f825b",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/ed56f.svg",
+      "bytes": 520,
+      "sha256": "968ea213e2c7010307f382b05acc66711ff1165685c50a0a39e0f645da5efd18",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/ed6fb.png",
+      "bytes": 23170,
+      "sha256": "6dc398197f163e72753def5d4f3fa3356e08f8e3cb9feb4131afce9b4e5fa48d",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/f0ae6.png",
+      "bytes": 489284,
+      "sha256": "d56856cbaa0774b1355bac7c65f635c187c2dc13692e3ff44ce5a322a47ef2ef",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/f1b6a.png",
+      "bytes": 946350,
+      "sha256": "3d0bb4cb31ec5048789c9b9e70640dfa675683dfa6dcc0b1bb225edc4fcf5185",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/f5e2c.png",
+      "bytes": 384683,
+      "sha256": "dd41af9cfa6ce343db1e67b26c84373c24cda4f1e91b2f821fa33817dddeb20d",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/f7a44.png",
+      "bytes": 963641,
+      "sha256": "6824c1124e7e3e37a5c3f5d2036b016e70e392325b84c2cdfe66a8a00792b710",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/f8298.png",
+      "bytes": 506582,
+      "sha256": "d2f8d944f76a227e5383fd029212711e23581ac635d487416792af0838993465",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/f84a8.png",
+      "bytes": 1373197,
+      "sha256": "751fce3250316b1620bf86ef0f1e4154c3e78fcf5f4a35f8895dbbf8cf711419",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/f912c.svg",
+      "bytes": 557,
+      "sha256": "4b203baa80b8c6b5f1974da7d4cacfd3ea358d70658679663e16a09a21630110",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/fc01c.svg",
+      "bytes": 558,
+      "sha256": "9cff03334dd60aea5f00394c83db1346334efbca0290c465cd9f9d2ed6caf2c0",
+      "source": "Figma export; Qh1YG18rrcwzEUWcHYX5YB"
+    },
+    {
+      "file": "assets/images/rnstyle-site-capture.jpg",
+      "bytes": 152745,
+      "sha256": "72f10f472701172df382005747e1589f234e6ffc3c8d4c6363b635d6c6a91d7c",
+      "source": "https://ryotanamiki.com/",
+      "kind": "User-requested screenshot of the current site",
+      "captured": "2026-10-16",
+      "viewport": "1440x1080"
+    },
+    {
+      "file": "assets/images/logo-black.svg",
+      "bytes": 5438,
+      "sha256": "759036224e60b921930ba9d34f7081d4773bedb6d036ab6914fd70293f0132fb",
+      "kind": "Header logo (black SVG)",
+      "intrinsic_size": "108x21"
+    },
+    {
+      "file": "assets/vendor/gsap/gsap.min.js",
+      "bytes": 72927,
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "source": "https://registry.npmjs.org/gsap/-/gsap-3.15.0.tgz",
+      "kind": "GSAP 3.15.0 official npm distribution; https://gsap.com/standard-license/"
+    },
+    {
+      "file": "assets/vendor/gsap/LICENSE.txt",
+      "bytes": 294,
+      "sha256": "02d48d7074dc1ea3f3a378dcc68dd64e0c16382ab08f8fd384587db0a8f729bb",
+      "source": "https://registry.npmjs.org/gsap/-/gsap-3.15.0.tgz",
+      "kind": "GSAP 3.15.0 official npm distribution; https://gsap.com/standard-license/"
+    },
+    {
+      "file": "assets/images/ogp-rnstyle.png",
+      "bytes": 58722,
+      "sha256": "42003ce26d361123cbd0bd5f6875042d69402d87f3059ceb9d145fd90a12a223",
+      "source": "User-provided OGP.png",
+      "kind": "Shared Open Graph and Twitter preview image",
+      "intrinsic_size": "3600x1890"
+    }
+  ]
+}

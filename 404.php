@@ -1,0 +1,1 @@
+<?php get_header();rn_page_hero('404','ページが見つかりませんでした。'); ?><div class="container editor-content"><p>URLをご確認いただくか、ホームからお探しください。</p><?php rn_button('ホームへ戻る',home_url('/')); ?></div><?php get_footer(); ?>

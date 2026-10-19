@@ -1,0 +1,7 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1356" height="490" viewBox="0 0 1356 490" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background / Curved section transition">
+<path id="Context / Previous section" d="M0 0H1356V245H0V0Z" fill="#FFFEFB"/>
+<path id="Context / Next section" d="M0 245H1356V490H0V245Z" fill="#FFFEFB"/>
+<path id="Surface / Left curve" d="M120 0H1356V490H120C53.7258 490 0 436.274 0 370V120C0 53.7258 53.7258 0 120 0Z" fill="#F5F4F1"/>
+</g>
+</svg>

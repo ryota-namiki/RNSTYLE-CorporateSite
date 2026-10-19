@@ -1,0 +1,53 @@
+{
+  "key": "group_rn_case_entry",
+  "title": "RNSTYLE 導入アニメーション",
+  "active": true,
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "rn_work"
+      }
+    ]
+  ],
+  "position": "normal",
+  "style": "default",
+  "menu_order": -15,
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "show_in_rest": 0,
+  "fields": [
+    {
+      "key": "field_rn_case_entry_enabled",
+      "name": "rn_case_entry_enabled",
+      "label": "導入アニメーション",
+      "type": "true_false",
+      "required": 0,
+      "default_value": 1,
+      "ui": 1,
+      "ui_on_text": "ON",
+      "ui_off_text": "OFF",
+      "instructions": "案件名の輪郭→塗りと、紹介文の表示をアニメーションします。OFFでもタイトルは見出し位置に表示。ブラウザバック・動きを減らす設定では動きだけを省略します。"
+    },
+    {
+      "key": "field_rn_case_entry_title",
+      "name": "rn_case_entry_title",
+      "label": "導入用タイトル",
+      "type": "text",
+      "required": 0,
+      "maxlength": 80,
+      "instructions": "空欄なら投稿タイトル。詳細冒頭のh1.case-titleの位置に1行で表示し、画面幅に合わせて文字サイズを自動調整します。最大80文字。"
+    },
+    {
+      "key": "field_rn_case_entry_color",
+      "name": "rn_case_entry_color",
+      "label": "文字色",
+      "type": "color_picker",
+      "required": 0,
+      "default_value": "",
+      "enable_opacity": 0,
+      "instructions": "輪郭と塗りの共通色。空欄なら背景に合わせて濃い青／白を自動選択します。OFFでもタイトルの文字色に反映します。"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+<?php get_header();while(have_posts()):the_post();rn_page_hero('NEWS',get_the_title()); ?><article class="container editor-content"><p><time datetime="<?php echo esc_attr(get_the_date('c')); ?>"><?php echo esc_html(get_the_date()); ?></time></p><?php the_content(); ?></article><?php endwhile;get_footer(); ?>

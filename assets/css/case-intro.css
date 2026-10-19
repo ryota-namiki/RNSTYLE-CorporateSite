@@ -1,0 +1,9 @@
+.case-entry.case-title{display:block;width:100%;min-width:0;margin:0;color:var(--case-entry-color,var(--deep-accent));font-family:var(--font);font-weight:700;line-height:1.15;letter-spacing:-.025em;text-transform:none;white-space:nowrap;overflow-wrap:normal;text-wrap:nowrap;--case-entry-max-size:clamp(64px,10vw,140px);--case-entry-available:min(1248px,calc(100vw - 96px));font-size:min(var(--case-entry-max-size),calc(var(--case-entry-available)/var(--case-entry-fit-chars,1)))}
+.case-entry-word{display:block;position:relative;width:max-content;max-width:none;margin-inline:auto;font:inherit;line-height:inherit;letter-spacing:inherit;white-space:nowrap;overflow-wrap:normal;text-wrap:nowrap}
+.case-entry-outline,.case-entry-fill{display:block;white-space:nowrap;font:inherit;letter-spacing:inherit;line-height:inherit}
+.case-entry-outline{color:transparent;-webkit-text-stroke:1px var(--case-entry-color);opacity:0}
+.case-entry-fill{position:absolute;inset:0;color:var(--case-entry-color);clip-path:inset(0 0% 0 0)}
+.case-entry-pending .case-entry-fill{clip-path:inset(0 100% 0 0)}
+.case-entry-pending .case-overview{opacity:0;transform:translateY(16px)}
+@media(max-width:767px){.case-entry.case-title{--case-entry-available:calc(100vw - 48px);letter-spacing:-.02em}}
+@media(prefers-reduced-motion:reduce){.case-entry-pending .case-entry-fill{clip-path:inset(0 0% 0 0)}.case-entry-pending .case-overview{opacity:1;transform:none}}

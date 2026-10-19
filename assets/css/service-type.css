@@ -1,0 +1,7 @@
+/* Load the licensed Adobe Fonts project stylesheet before this file. */
+.rn-service-page{font-family:'futura-pt','Futura PT','Noto Sans JP',sans-serif}
+.rn-service-page .number,
+.rn-service-page .service-detail h2,
+.rn-service-page .service-price strong,
+.rn-service-page .price-item h3,
+.rn-service-page .price-item p{font-family:'futura-pt','Futura PT','Noto Sans JP',sans-serif}

@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="1440" height="490" viewBox="0 0 1440 490" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Background / Curved section transition" clip-path="url(#clip0_0_97)">
+<path id="Context / Previous section" d="M0 0H1440V245H0V0Z" fill="#F5F4F1"/>
+<path id="Context / Next section" d="M0 245H1440V490H0V245Z" fill="#F5F4F1"/>
+<path id="Surface / Right curve" d="M0 0H1320C1386.27 0 1440 53.7258 1440 120V370C1440 436.274 1386.27 490 1320 490H0V0Z" fill="#FFFEFB"/>
+</g>
+<defs>
+<clipPath id="clip0_0_97">
+<rect width="1440" height="490" fill="white"/>
+</clipPath>
+</defs>
+</svg>

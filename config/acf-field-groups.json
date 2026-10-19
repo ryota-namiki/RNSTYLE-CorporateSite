@@ -1,0 +1,2907 @@
+[
+  {
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "rn_work"
+        }
+      ]
+    ],
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "show_in_rest": 0,
+    "key": "group_rn_case_overview",
+    "title": "RNSTYLE 実績の基本情報",
+    "fields": [
+      {
+        "key": "field_rn_case_guide",
+        "name": "rn_case_guide",
+        "label": "入力ガイド",
+        "type": "message",
+        "required": 0,
+        "message": "タイトルと実績カテゴリーは通常の投稿欄で設定。基本情報と必要なセクションだけ入力してください。各見出しは案件に合わせて変更できます。本文の「メディアを追加」から画像を何枚でも追加できます。空のセクションは表示しません。",
+        "new_lines": "wpautop"
+      },
+      {
+        "key": "field_rn_case_intro",
+        "name": "rn_case_intro",
+        "label": "プロジェクトの紹介文",
+        "type": "textarea",
+        "required": 0,
+        "rows": 4,
+        "new_lines": "",
+        "instructions": "タイトル直下に表示する短い概要。"
+      },
+      {
+        "key": "field_rn_case_client",
+        "name": "rn_case_client",
+        "label": "クライアント",
+        "type": "text",
+        "required": 0
+      },
+      {
+        "key": "field_rn_case_services",
+        "name": "rn_case_services",
+        "label": "提供サービス",
+        "type": "text",
+        "required": 0
+      },
+      {
+        "key": "field_rn_case_role",
+        "name": "rn_case_role",
+        "label": "担当範囲・役割",
+        "type": "text",
+        "required": 0
+      },
+      {
+        "key": "field_rn_case_year",
+        "name": "rn_case_year",
+        "label": "制作年・期間",
+        "type": "text",
+        "required": 0
+      },
+      {
+        "key": "field_rn_case_external_url",
+        "name": "rn_case_external_url",
+        "label": "公開サイト・プロトタイプURL",
+        "type": "url",
+        "required": 0
+      },
+      {
+        "key": "field_rn_case_card_image",
+        "name": "rn_case_card_image",
+        "label": "一覧用画像",
+        "type": "image",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif",
+        "instructions": "メディアから選択。代替テキストとキャプションはメディア側で編集できます。",
+        "wrapper": {
+          "width": "33"
+        }
+      },
+      {
+        "key": "field_rn_case_hero_image",
+        "name": "rn_case_hero_image",
+        "label": "メイン画像",
+        "type": "image",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif",
+        "instructions": "メディアから選択。代替テキストとキャプションはメディア側で編集できます。",
+        "wrapper": {
+          "width": "33"
+        }
+      },
+      {
+        "key": "field_rn_case_hero_mobile",
+        "name": "rn_case_hero_mobile",
+        "label": "メイン画像 SP用（任意）",
+        "type": "image",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif",
+        "instructions": "メディアから選択。代替テキストとキャプションはメディア側で編集できます。",
+        "wrapper": {
+          "width": "33"
+        }
+      },
+      {
+        "key": "field_6ad1723520ff0",
+        "name": "rn_case_background_color",
+        "label": "詳細ページの背景色",
+        "type": "color_picker",
+        "required": 0,
+        "default_value": "",
+        "enable_opacity": 0,
+        "return_format": "string",
+        "show_color_wheel": 1,
+        "instructions": "この実績の詳細本文とヘッダーの背景色。空欄なら通常の背景色を使用します。"
+      },
+      {
+        "key": "field_6ad2243788228",
+        "name": "rn_case_text_color",
+        "label": "詳細ページの本文文字色",
+        "type": "color_picker",
+        "required": 0,
+        "default_value": "",
+        "enable_opacity": 0,
+        "return_format": "string",
+        "show_color_wheel": 1,
+        "instructions": "この実績の紹介文・基本情報・本文・画像キャプションの標準文字色。空欄ならサイト標準の #111827。導入タイトルの文字色は「導入アニメーション」で設定します。"
+      }
+    ],
+    "menu_order": 0,
+    "description": "制作実績の紹介文・クライアント・担当範囲・期間・メイン画像を管理。"
+  },
+  {
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "rn_work"
+        }
+      ]
+    ],
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "active": true,
+    "show_in_rest": 0,
+    "key": "group_rn_case_story",
+    "title": "RNSTYLE ケーススタディ",
+    "fields": [
+      {
+        "key": "field_rn_case_context_panel",
+        "name": "rn_case_context_panel",
+        "label": "CONTEXT ／ 背景・プロジェクト概要",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_context_title",
+        "name": "rn_case_context_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "CONTEXT",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_context_body",
+        "name": "rn_case_context_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_context_image_1",
+        "name": "rn_case_context_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_context_image_2",
+        "name": "rn_case_context_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_context_image_3",
+        "name": "rn_case_context_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_context_image_4",
+        "name": "rn_case_context_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_context_image_5",
+        "name": "rn_case_context_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_context_media_order",
+        "name": "rn_case_context_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_context_media_position",
+        "name": "rn_case_context_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_research_panel",
+        "name": "rn_case_research_panel",
+        "label": "RESEARCH ／ 調査・インタビュー",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_research_title",
+        "name": "rn_case_research_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "RESEARCH",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_research_body",
+        "name": "rn_case_research_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_research_image_1",
+        "name": "rn_case_research_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_research_image_2",
+        "name": "rn_case_research_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_research_image_3",
+        "name": "rn_case_research_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_research_image_4",
+        "name": "rn_case_research_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_research_image_5",
+        "name": "rn_case_research_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_research_media_order",
+        "name": "rn_case_research_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_research_media_position",
+        "name": "rn_case_research_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_starting_point_panel",
+        "name": "rn_case_starting_point_panel",
+        "label": "THE STARTING POINT ／ 着手時の状況",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_starting_point_title",
+        "name": "rn_case_starting_point_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "THE STARTING POINT",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_starting_point_body",
+        "name": "rn_case_starting_point_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_starting_point_image_1",
+        "name": "rn_case_starting_point_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_starting_point_image_2",
+        "name": "rn_case_starting_point_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_starting_point_image_3",
+        "name": "rn_case_starting_point_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_starting_point_image_4",
+        "name": "rn_case_starting_point_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_starting_point_image_5",
+        "name": "rn_case_starting_point_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_starting_point_media_order",
+        "name": "rn_case_starting_point_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_starting_point_media_position",
+        "name": "rn_case_starting_point_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_problem_panel",
+        "name": "rn_case_problem_panel",
+        "label": "THE PROBLEM ／ 課題",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_problem_title",
+        "name": "rn_case_problem_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "THE PROBLEM",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_problem_body",
+        "name": "rn_case_problem_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_problem_image_1",
+        "name": "rn_case_problem_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_problem_image_2",
+        "name": "rn_case_problem_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_problem_image_3",
+        "name": "rn_case_problem_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_problem_image_4",
+        "name": "rn_case_problem_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_problem_image_5",
+        "name": "rn_case_problem_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_problem_media_order",
+        "name": "rn_case_problem_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_problem_media_position",
+        "name": "rn_case_problem_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_problem_metric_1",
+        "name": "rn_case_problem_metric_1",
+        "label": "指標 1 の値",
+        "type": "text",
+        "required": 0,
+        "wrapper": {
+          "width": "30"
+        },
+        "instructions": "数値・単位を入力（任意）。"
+      },
+      {
+        "key": "field_rn_case_problem_metric_label_1",
+        "name": "rn_case_problem_metric_label_1",
+        "label": "指標 1 の説明",
+        "type": "text",
+        "required": 0,
+        "wrapper": {
+          "width": "70"
+        },
+        "instructions": "値と説明の両方がある指標のみ表示。"
+      },
+      {
+        "key": "field_rn_case_problem_metric_2",
+        "name": "rn_case_problem_metric_2",
+        "label": "指標 2 の値",
+        "type": "text",
+        "required": 0,
+        "wrapper": {
+          "width": "30"
+        },
+        "instructions": "数値・単位を入力（任意）。"
+      },
+      {
+        "key": "field_rn_case_problem_metric_label_2",
+        "name": "rn_case_problem_metric_label_2",
+        "label": "指標 2 の説明",
+        "type": "text",
+        "required": 0,
+        "wrapper": {
+          "width": "70"
+        },
+        "instructions": "値と説明の両方がある指標のみ表示。"
+      },
+      {
+        "key": "field_rn_case_problem_metric_3",
+        "name": "rn_case_problem_metric_3",
+        "label": "指標 3 の値",
+        "type": "text",
+        "required": 0,
+        "wrapper": {
+          "width": "30"
+        },
+        "instructions": "数値・単位を入力（任意）。"
+      },
+      {
+        "key": "field_rn_case_problem_metric_label_3",
+        "name": "rn_case_problem_metric_label_3",
+        "label": "指標 3 の説明",
+        "type": "text",
+        "required": 0,
+        "wrapper": {
+          "width": "70"
+        },
+        "instructions": "値と説明の両方がある指標のみ表示。"
+      },
+      {
+        "key": "field_rn_case_flowchart_panel",
+        "name": "rn_case_flowchart_panel",
+        "label": "FLOWCHART ／ 導線・フローの比較",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_flowchart_title",
+        "name": "rn_case_flowchart_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "FLOWCHART",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_flowchart_body",
+        "name": "rn_case_flowchart_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_flowchart_image_1",
+        "name": "rn_case_flowchart_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_flowchart_image_2",
+        "name": "rn_case_flowchart_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_flowchart_image_3",
+        "name": "rn_case_flowchart_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_flowchart_image_4",
+        "name": "rn_case_flowchart_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_flowchart_image_5",
+        "name": "rn_case_flowchart_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_flowchart_media_order",
+        "name": "rn_case_flowchart_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_flowchart_media_position",
+        "name": "rn_case_flowchart_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_decisions_panel",
+        "name": "rn_case_decisions_panel",
+        "label": "WHAT WE CUT AND WHY ／ 方針・判断の理由",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_decisions_title",
+        "name": "rn_case_decisions_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "WHAT WE CUT AND WHY",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_decisions_body",
+        "name": "rn_case_decisions_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_decisions_image_1",
+        "name": "rn_case_decisions_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_decisions_image_2",
+        "name": "rn_case_decisions_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_decisions_image_3",
+        "name": "rn_case_decisions_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_decisions_image_4",
+        "name": "rn_case_decisions_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_decisions_image_5",
+        "name": "rn_case_decisions_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_decisions_media_order",
+        "name": "rn_case_decisions_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_decisions_media_position",
+        "name": "rn_case_decisions_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_trust_panel",
+        "name": "rn_case_trust_panel",
+        "label": "TRUST & CREDIBILITY ／ 信頼を高める設計",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_trust_title",
+        "name": "rn_case_trust_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "TRUST & CREDIBILITY",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_trust_body",
+        "name": "rn_case_trust_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_trust_image_1",
+        "name": "rn_case_trust_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_trust_image_2",
+        "name": "rn_case_trust_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_trust_image_3",
+        "name": "rn_case_trust_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_trust_image_4",
+        "name": "rn_case_trust_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_trust_image_5",
+        "name": "rn_case_trust_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_trust_media_order",
+        "name": "rn_case_trust_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_trust_media_position",
+        "name": "rn_case_trust_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_prototypes_panel",
+        "name": "rn_case_prototypes_panel",
+        "label": "PROTOTYPES ／ プロトタイプ",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_prototypes_title",
+        "name": "rn_case_prototypes_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "PROTOTYPES",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_prototypes_body",
+        "name": "rn_case_prototypes_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_prototypes_image_1",
+        "name": "rn_case_prototypes_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_prototypes_image_2",
+        "name": "rn_case_prototypes_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_prototypes_image_3",
+        "name": "rn_case_prototypes_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_prototypes_image_4",
+        "name": "rn_case_prototypes_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_prototypes_image_5",
+        "name": "rn_case_prototypes_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_prototypes_media_order",
+        "name": "rn_case_prototypes_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_prototypes_media_position",
+        "name": "rn_case_prototypes_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_find_coaches_panel",
+        "name": "rn_case_find_coaches_panel",
+        "label": "DESIGN IMPROVEMENT 01 ／ 改善例 1",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_find_coaches_title",
+        "name": "rn_case_find_coaches_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "DESIGN IMPROVEMENT 01",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_find_coaches_body",
+        "name": "rn_case_find_coaches_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_find_coaches_image_1",
+        "name": "rn_case_find_coaches_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_find_coaches_image_2",
+        "name": "rn_case_find_coaches_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_find_coaches_image_3",
+        "name": "rn_case_find_coaches_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_find_coaches_image_4",
+        "name": "rn_case_find_coaches_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_find_coaches_image_5",
+        "name": "rn_case_find_coaches_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_find_coaches_media_order",
+        "name": "rn_case_find_coaches_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_find_coaches_media_position",
+        "name": "rn_case_find_coaches_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_coach_page_panel",
+        "name": "rn_case_coach_page_panel",
+        "label": "DESIGN IMPROVEMENT 02 ／ 改善例 2",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_coach_page_title",
+        "name": "rn_case_coach_page_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "DESIGN IMPROVEMENT 02",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_coach_page_body",
+        "name": "rn_case_coach_page_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_coach_page_image_1",
+        "name": "rn_case_coach_page_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_coach_page_image_2",
+        "name": "rn_case_coach_page_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_coach_page_image_3",
+        "name": "rn_case_coach_page_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_coach_page_image_4",
+        "name": "rn_case_coach_page_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_coach_page_image_5",
+        "name": "rn_case_coach_page_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_coach_page_media_order",
+        "name": "rn_case_coach_page_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_coach_page_media_position",
+        "name": "rn_case_coach_page_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_profile_page_panel",
+        "name": "rn_case_profile_page_panel",
+        "label": "DESIGN IMPROVEMENT 03 ／ 改善例 3",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_profile_page_title",
+        "name": "rn_case_profile_page_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "DESIGN IMPROVEMENT 03",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_profile_page_body",
+        "name": "rn_case_profile_page_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_profile_page_image_1",
+        "name": "rn_case_profile_page_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_profile_page_image_2",
+        "name": "rn_case_profile_page_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_profile_page_image_3",
+        "name": "rn_case_profile_page_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_profile_page_image_4",
+        "name": "rn_case_profile_page_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_profile_page_image_5",
+        "name": "rn_case_profile_page_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_profile_page_media_order",
+        "name": "rn_case_profile_page_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_profile_page_media_position",
+        "name": "rn_case_profile_page_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_search_panel",
+        "name": "rn_case_search_panel",
+        "label": "SEARCH EXPERIENCE ／ 改善例 4",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_search_title",
+        "name": "rn_case_search_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "SEARCH EXPERIENCE",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_search_body",
+        "name": "rn_case_search_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_search_image_1",
+        "name": "rn_case_search_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_search_image_2",
+        "name": "rn_case_search_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_search_image_3",
+        "name": "rn_case_search_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_search_image_4",
+        "name": "rn_case_search_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_search_image_5",
+        "name": "rn_case_search_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_search_media_order",
+        "name": "rn_case_search_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_search_media_position",
+        "name": "rn_case_search_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_in_motion_panel",
+        "name": "rn_case_in_motion_panel",
+        "label": "IN MOTION ／ 動きのある画面",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_in_motion_title",
+        "name": "rn_case_in_motion_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "IN MOTION",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_in_motion_body",
+        "name": "rn_case_in_motion_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_in_motion_image_1",
+        "name": "rn_case_in_motion_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_in_motion_image_2",
+        "name": "rn_case_in_motion_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_in_motion_image_3",
+        "name": "rn_case_in_motion_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_in_motion_image_4",
+        "name": "rn_case_in_motion_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_in_motion_image_5",
+        "name": "rn_case_in_motion_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_in_motion_media_order",
+        "name": "rn_case_in_motion_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_in_motion_media_position",
+        "name": "rn_case_in_motion_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_promo_panel",
+        "name": "rn_case_promo_panel",
+        "label": "PROMO ／ 展開・プロモーション",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_promo_title",
+        "name": "rn_case_promo_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "PROMO",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_promo_body",
+        "name": "rn_case_promo_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_promo_image_1",
+        "name": "rn_case_promo_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_promo_image_2",
+        "name": "rn_case_promo_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_promo_image_3",
+        "name": "rn_case_promo_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_promo_image_4",
+        "name": "rn_case_promo_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_promo_image_5",
+        "name": "rn_case_promo_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_promo_media_order",
+        "name": "rn_case_promo_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_promo_media_position",
+        "name": "rn_case_promo_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_design_kit_panel",
+        "name": "rn_case_design_kit_panel",
+        "label": "DESIGN KIT ／ デザインシステム",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_design_kit_title",
+        "name": "rn_case_design_kit_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "DESIGN KIT",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_design_kit_body",
+        "name": "rn_case_design_kit_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_design_kit_image_1",
+        "name": "rn_case_design_kit_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_design_kit_image_2",
+        "name": "rn_case_design_kit_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_design_kit_image_3",
+        "name": "rn_case_design_kit_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_design_kit_image_4",
+        "name": "rn_case_design_kit_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_design_kit_image_5",
+        "name": "rn_case_design_kit_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_design_kit_media_order",
+        "name": "rn_case_design_kit_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_design_kit_media_position",
+        "name": "rn_case_design_kit_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_outcomes_panel",
+        "name": "rn_case_outcomes_panel",
+        "label": "OUTCOMES ／ 成果",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_outcomes_title",
+        "name": "rn_case_outcomes_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "OUTCOMES",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_outcomes_body",
+        "name": "rn_case_outcomes_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_outcomes_image_1",
+        "name": "rn_case_outcomes_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_outcomes_image_2",
+        "name": "rn_case_outcomes_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_outcomes_image_3",
+        "name": "rn_case_outcomes_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_outcomes_image_4",
+        "name": "rn_case_outcomes_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_outcomes_image_5",
+        "name": "rn_case_outcomes_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_outcomes_media_order",
+        "name": "rn_case_outcomes_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_outcomes_media_position",
+        "name": "rn_case_outcomes_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_outcomes_metric_1",
+        "name": "rn_case_outcomes_metric_1",
+        "label": "指標 1 の値",
+        "type": "text",
+        "required": 0,
+        "wrapper": {
+          "width": "30"
+        },
+        "instructions": "数値・単位を入力（任意）。"
+      },
+      {
+        "key": "field_rn_case_outcomes_metric_label_1",
+        "name": "rn_case_outcomes_metric_label_1",
+        "label": "指標 1 の説明",
+        "type": "text",
+        "required": 0,
+        "wrapper": {
+          "width": "70"
+        },
+        "instructions": "値と説明の両方がある指標のみ表示。"
+      },
+      {
+        "key": "field_rn_case_outcomes_metric_2",
+        "name": "rn_case_outcomes_metric_2",
+        "label": "指標 2 の値",
+        "type": "text",
+        "required": 0,
+        "wrapper": {
+          "width": "30"
+        },
+        "instructions": "数値・単位を入力（任意）。"
+      },
+      {
+        "key": "field_rn_case_outcomes_metric_label_2",
+        "name": "rn_case_outcomes_metric_label_2",
+        "label": "指標 2 の説明",
+        "type": "text",
+        "required": 0,
+        "wrapper": {
+          "width": "70"
+        },
+        "instructions": "値と説明の両方がある指標のみ表示。"
+      },
+      {
+        "key": "field_rn_case_outcomes_metric_3",
+        "name": "rn_case_outcomes_metric_3",
+        "label": "指標 3 の値",
+        "type": "text",
+        "required": 0,
+        "wrapper": {
+          "width": "30"
+        },
+        "instructions": "数値・単位を入力（任意）。"
+      },
+      {
+        "key": "field_rn_case_outcomes_metric_label_3",
+        "name": "rn_case_outcomes_metric_label_3",
+        "label": "指標 3 の説明",
+        "type": "text",
+        "required": 0,
+        "wrapper": {
+          "width": "70"
+        },
+        "instructions": "値と説明の両方がある指標のみ表示。"
+      },
+      {
+        "key": "field_rn_case_goal_panel",
+        "name": "rn_case_goal_panel",
+        "label": "GOAL ／ 目指した体験",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_goal_title",
+        "name": "rn_case_goal_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "GOAL",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_goal_body",
+        "name": "rn_case_goal_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_goal_image_1",
+        "name": "rn_case_goal_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_goal_image_2",
+        "name": "rn_case_goal_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_goal_image_3",
+        "name": "rn_case_goal_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_goal_image_4",
+        "name": "rn_case_goal_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_goal_image_5",
+        "name": "rn_case_goal_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_goal_media_order",
+        "name": "rn_case_goal_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_goal_media_position",
+        "name": "rn_case_goal_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_reflection_panel",
+        "name": "rn_case_reflection_panel",
+        "label": "REFLECTION ／ 振り返り",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_reflection_title",
+        "name": "rn_case_reflection_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "REFLECTION",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_reflection_body",
+        "name": "rn_case_reflection_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_reflection_image_1",
+        "name": "rn_case_reflection_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_reflection_image_2",
+        "name": "rn_case_reflection_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_reflection_image_3",
+        "name": "rn_case_reflection_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_reflection_image_4",
+        "name": "rn_case_reflection_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_reflection_image_5",
+        "name": "rn_case_reflection_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_reflection_media_order",
+        "name": "rn_case_reflection_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_reflection_media_position",
+        "name": "rn_case_reflection_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_next_steps_panel",
+        "name": "rn_case_next_steps_panel",
+        "label": "WHAT I'D DO DIFFERENTLY ／ 今後の改善",
+        "type": "accordion",
+        "required": 0,
+        "open": 0,
+        "multi_expand": 1
+      },
+      {
+        "key": "field_rn_case_next_steps_title",
+        "name": "rn_case_next_steps_title",
+        "label": "表示見出し",
+        "type": "text",
+        "required": 0,
+        "placeholder": "WHAT I'D DO DIFFERENTLY",
+        "instructions": "空欄なら英語の標準見出し。案件に合わせた日本語見出しも使えます。"
+      },
+      {
+        "key": "field_rn_case_next_steps_body",
+        "name": "rn_case_next_steps_body",
+        "label": "本文・追加画像",
+        "type": "wysiwyg",
+        "required": 0,
+        "tabs": "all",
+        "toolbar": "full",
+        "media_upload": 1,
+        "delay": 1,
+        "instructions": "文章、箇条書き、小見出し、画像を自由に追加できます。"
+      },
+      {
+        "key": "field_rn_case_next_steps_image_1",
+        "name": "rn_case_next_steps_image_1",
+        "label": "メディア 1",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_next_steps_image_2",
+        "name": "rn_case_next_steps_image_2",
+        "label": "メディア 2",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_next_steps_image_3",
+        "name": "rn_case_next_steps_image_3",
+        "label": "メディア 3",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_next_steps_image_4",
+        "name": "rn_case_next_steps_image_4",
+        "label": "メディア 4",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_next_steps_image_5",
+        "name": "rn_case_next_steps_image_5",
+        "label": "メディア 5",
+        "type": "file",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "mime_types": "jpg,jpeg,png,webp,gif,avif,mp4,webm",
+        "instructions": "画像または動画（MP4／WebM）。ハンドルをドラッグして表示順を変更できます。",
+        "wrapper": {
+          "width": "50"
+        }
+      },
+      {
+        "key": "field_rn_case_next_steps_media_order",
+        "name": "rn_case_next_steps_media_order",
+        "label": "メディア表示順",
+        "type": "text",
+        "required": 0,
+        "default_value": "",
+        "wrapper": {
+          "class": "rn-case-media-order"
+        }
+      },
+      {
+        "key": "field_rn_case_next_steps_media_position",
+        "name": "rn_case_next_steps_media_position",
+        "label": "メディアの配置",
+        "type": "select",
+        "required": 0,
+        "choices": {
+          "default": "標準の配置",
+          "before": "本文の前",
+          "after": "本文の後"
+        },
+        "default_value": "default",
+        "return_format": "value"
+      },
+      {
+        "key": "field_rn_case_panels_end",
+        "name": "rn_case_panels_end",
+        "label": "",
+        "type": "accordion",
+        "required": 0,
+        "endpoint": 1
+      }
+    ],
+    "menu_order": 1,
+    "description": "Context・Research・画像・成果指標・振り返りを管理する制作実績用フィールド。"
+  },
+  {
+    "key": "group_rn_gallery",
+    "title": "RNSTYLE 一覧・回転ギャラリー",
+    "active": true,
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "rn_work"
+        }
+      ]
+    ],
+    "position": "normal",
+    "style": "default",
+    "menu_order": -20,
+    "label_placement": "top",
+    "fields": [
+      {
+        "key": "field_rn_gallery_guide",
+        "label": "一覧への掲載",
+        "name": "",
+        "type": "message",
+        "message": "公開した制作実績1件につき、Worksに1枚表示します。画像・タグは回転表示／グリッド／ポップアップで共通です。",
+        "required": 0
+      },
+      {
+        "key": "field_rn_case_orbit_image",
+        "label": "回転・グリッド用サムネイル",
+        "name": "rn_case_orbit_image",
+        "type": "image",
+        "required": 0,
+        "return_format": "id",
+        "preview_size": "medium",
+        "library": "all",
+        "instructions": "1件につき1枚。未設定時は基本情報のカード画像、アイキャッチ、メイン画像の順で表示します。横長（4:3程度）を推奨。"
+      },
+      {
+        "key": "field_rn_case_gallery_tags",
+        "label": "絞り込みタグ",
+        "name": "rn_case_gallery_tags",
+        "type": "textarea",
+        "required": 0,
+        "rows": 2,
+        "max_length": 400,
+        "new_lines": "",
+        "instructions": "カンマまたは改行で区切って入力。例 Web, UI/UX, WordPress。同じタグは一覧で1つにまとめられます。"
+      },
+      {
+        "key": "field_rn_case_preview_intro",
+        "label": "ポップアップの紹介文",
+        "name": "rn_case_preview_intro",
+        "type": "textarea",
+        "required": 0,
+        "rows": 3,
+        "max_length": 240,
+        "new_lines": "",
+        "instructions": "空欄なら基本情報の紹介文／抜粋を表示します。"
+      },
+      {
+        "key": "field_rn_case_is_sample",
+        "label": "仮実績として表示",
+        "name": "rn_case_is_sample",
+        "type": "true_false",
+        "required": 0,
+        "default_value": 0,
+        "ui": 1,
+        "ui_on_text": "仮実績",
+        "ui_off_text": "通常",
+        "instructions": "仮登録の間はオン。グリッドとポップアップにSAMPLEラベルを表示します。"
+      }
+    ]
+  },
+  {
+    "key": "group_rn_case_entry",
+    "title": "RNSTYLE 導入アニメーション",
+    "active": true,
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "rn_work"
+        }
+      ]
+    ],
+    "position": "normal",
+    "style": "default",
+    "menu_order": -15,
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "show_in_rest": 0,
+    "fields": [
+      {
+        "key": "field_rn_case_entry_enabled",
+        "name": "rn_case_entry_enabled",
+        "label": "導入アニメーション",
+        "type": "true_false",
+        "required": 0,
+        "default_value": 1,
+        "ui": 1,
+        "ui_on_text": "ON",
+        "ui_off_text": "OFF",
+        "instructions": "案件名の輪郭→塗りと、紹介文の表示をアニメーションします。OFFでもタイトルは見出し位置に表示。ブラウザバック・動きを減らす設定では動きだけを省略します。"
+      },
+      {
+        "key": "field_rn_case_entry_title",
+        "name": "rn_case_entry_title",
+        "label": "導入用タイトル",
+        "type": "text",
+        "required": 0,
+        "maxlength": 80,
+        "instructions": "空欄なら投稿タイトル。詳細冒頭のh1.case-titleの位置に1行で表示し、画面幅に合わせて文字サイズを自動調整します。最大80文字。"
+      },
+      {
+        "key": "field_rn_case_entry_color",
+        "name": "rn_case_entry_color",
+        "label": "文字色",
+        "type": "color_picker",
+        "required": 0,
+        "default_value": "",
+        "enable_opacity": 0,
+        "instructions": "輪郭と塗りの共通色。空欄なら背景に合わせて濃い青／白を自動選択します。OFFでもタイトルの文字色に反映します。"
+      }
+    ]
+  }
+]
