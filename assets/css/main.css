@@ -156,3 +156,13 @@ body.single-rn_work,.single-rn_work .site-header{background:var(--case-backgroun
 .eyebrow-art .eyebrow-glyph:last-child{margin-inline-end:0}
 
 .orbit-card-meta{gap:12px}.orbit-card-label{min-width:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;flex:1}.orbit-card-label+span{flex:none}
+
+/* Orbit View supplies the live image count; move one full image cycle without a pause. */
+.motion-pc--gallery .motion-lane{animation-name:rn-gallery-lane-down}
+.motion-pc--gallery .lane-carrier:nth-child(even) .motion-lane{animation-name:rn-gallery-lane-up}
+.motion-sp--gallery .portrait-lane{animation-name:rn-gallery-portrait-up}
+.motion-sp--gallery .portrait-carrier:nth-child(2) .portrait-lane{animation-name:rn-gallery-portrait-down}
+@keyframes rn-gallery-lane-down{to{translate:var(--rn-lane-distance) 0}}
+@keyframes rn-gallery-lane-up{to{translate:calc(-1 * var(--rn-lane-distance)) 0}}
+@keyframes rn-gallery-portrait-up{to{translate:0 calc(-1 * var(--rn-portrait-distance))}}
+@keyframes rn-gallery-portrait-down{to{translate:0 var(--rn-portrait-distance)}}

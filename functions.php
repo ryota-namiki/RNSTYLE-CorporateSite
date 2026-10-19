@@ -1,7 +1,7 @@
 <?php
 /** RNSTYLE theme bootstrap. */
 if (!defined('ABSPATH')) { exit; }
-define('RNSTYLE_VERSION', '1.3.19');
+define('RNSTYLE_VERSION', '1.3.20');
 foreach (['content', 'admin', 'contact', 'case-intro', 'case-media', 'opening', 'social', 'eyebrow'] as $module) { require_once get_template_directory() . '/inc/' . $module . '.php'; }
 add_action('after_setup_theme', function () {
     load_theme_textdomain('rnstyle', get_template_directory() . '/languages');
